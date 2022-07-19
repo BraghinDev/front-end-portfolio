@@ -224,6 +224,11 @@ header {
 }
 
 @media screen and (max-width:600px){
+
+    header {
+        padding: 0px 10px;
+    }
+
     .logo {
         display: none;
     }
@@ -235,11 +240,10 @@ header {
         flex-direction: column;
         gap: 10px;
     }
-}
 
-@media screen and (max-width:600px){
-    header {
-        padding: 0px 10px;
+    .navigation ul {
+        width: 100%;
+        justify-content: center;
     }
 
     .me-img img{
@@ -247,6 +251,4 @@ header {
         max-width: 200px;
         max-height: 200px;
     }
-
-    
 }
