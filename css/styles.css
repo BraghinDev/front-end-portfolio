@@ -238,6 +238,9 @@ header {
 }
 
 @media screen and (max-width:600px){
+    header {
+        padding: 0px 10px;
+    }
 
     .me-img img{
         border-radius: 50%;
@@ -245,12 +248,5 @@ header {
         max-height: 200px;
     }
 
-    #college {
-        text-align: center;
-    }
-
-    #college h2{
-        font-size: 15px;
-    }
     
 }
